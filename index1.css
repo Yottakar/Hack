@@ -258,7 +258,6 @@
 }
 
 .macbook-air-2-child1,
-.macbook-air-2-inner,
 .rectangle-div {
 	position: absolute;
 	top: calc(50% - 1701.02px);
@@ -266,6 +265,39 @@
 	background-color: var(--color-mediumblue);
 	width: 13.5rem;
 	height: 0.94rem;
+}
+.macbook-air-2-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.table {
+      width: 300px;
+      border-collapse: collapse;
+      display: flex;
+      flex-direction: column;
+    }
+
+.tr {
+      display: flex;
+}
+
+.th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+}
+
+.th {
+      background-color: #f2f2f2;
+}
+
+.a {
+      color: #007bff;
+      text-decoration: none;
 }
 
 .macbook-air-2-child1,
@@ -832,17 +864,7 @@
 	height: 15.65rem;
 }
 
-.coming-soon {
-	position: absolute;
-	top: calc(50% - 77.31px);
-	left: calc(50% - 248px);
-	line-height: 2.5rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 29.25rem;
-	height: 9.73rem;
-}
+
 
 .group-child21,
 .rectangle-parent8 {
